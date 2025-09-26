@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.newTodo {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.newTodo__text {
+    width: 100%;
+    width: 402px;
+    height: 37px;
+    padding-left: 20px;
+    margin-right: 5px;
+    border: solid #A1A3AB 1px;
+}
+
+.newTodo__text {
+    border: solid #A1A3AB 1px;
+}
+
+.newTodo__text:focus {
+    outline: none;
+    
+}
+
+.icon-input {
+    padding-left: 40px;
+    background-image: url('../../../public/assets/clipboard.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    width: 300px;
+    font-size: 16px;
+}
+
+
+.newTodo__submit {
+    width: 117px;
+    background-color: #F24E1E;
+    border: none;
+    border-radius: 6%;
+    padding: 5px;
+    color: #fff;
+}

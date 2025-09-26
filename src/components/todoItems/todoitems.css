@@ -1,0 +1,31 @@
+.todo-item {
+    display: flex;
+    width: 422px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.todo-item__checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.space {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.todo-item__text {
+    font-size: 17px;
+}
+
+.todo-item__delete {
+    border: none;
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    width: 117px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
